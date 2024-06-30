@@ -1,0 +1,386 @@
+/home/ritishdhiman/RiderProjects/MongoExample/bin/Debug/net7.0/appsettings.Development.json
+/home/ritishdhiman/RiderProjects/MongoExample/bin/Debug/net7.0/appsettings.json
+/home/ritishdhiman/RiderProjects/MongoExample/bin/Debug/net7.0/MongoExample
+/home/ritishdhiman/RiderProjects/MongoExample/bin/Debug/net7.0/MongoExample.deps.json
+/home/ritishdhiman/RiderProjects/MongoExample/bin/Debug/net7.0/MongoExample.runtimeconfig.json
+/home/ritishdhiman/RiderProjects/MongoExample/bin/Debug/net7.0/MongoExample.dll
+/home/ritishdhiman/RiderProjects/MongoExample/bin/Debug/net7.0/MongoExample.pdb
+/home/ritishdhiman/RiderProjects/MongoExample/bin/Debug/net7.0/AWSSDK.Core.dll
+/home/ritishdhiman/RiderProjects/MongoExample/bin/Debug/net7.0/AWSSDK.SecurityToken.dll
+/home/ritishdhiman/RiderProjects/MongoExample/bin/Debug/net7.0/DnsClient.dll
+/home/ritishdhiman/RiderProjects/MongoExample/bin/Debug/net7.0/Microsoft.AspNetCore.OpenApi.dll
+/home/ritishdhiman/RiderProjects/MongoExample/bin/Debug/net7.0/Microsoft.OpenApi.dll
+/home/ritishdhiman/RiderProjects/MongoExample/bin/Debug/net7.0/MongoDB.Bson.dll
+/home/ritishdhiman/RiderProjects/MongoExample/bin/Debug/net7.0/MongoDB.Driver.dll
+/home/ritishdhiman/RiderProjects/MongoExample/bin/Debug/net7.0/MongoDB.Driver.Core.dll
+/home/ritishdhiman/RiderProjects/MongoExample/bin/Debug/net7.0/MongoDB.Libmongocrypt.dll
+/home/ritishdhiman/RiderProjects/MongoExample/bin/Debug/net7.0/SharpCompress.dll
+/home/ritishdhiman/RiderProjects/MongoExample/bin/Debug/net7.0/Snappier.dll
+/home/ritishdhiman/RiderProjects/MongoExample/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
+/home/ritishdhiman/RiderProjects/MongoExample/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/ritishdhiman/RiderProjects/MongoExample/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/home/ritishdhiman/RiderProjects/MongoExample/bin/Debug/net7.0/ZstdSharp.dll
+/home/ritishdhiman/RiderProjects/MongoExample/bin/Debug/net7.0/runtimes/linux/native/libmongocrypt.so
+/home/ritishdhiman/RiderProjects/MongoExample/bin/Debug/net7.0/runtimes/osx/native/libmongocrypt.dylib
+/home/ritishdhiman/RiderProjects/MongoExample/bin/Debug/net7.0/runtimes/win/native/mongocrypt.dll
+/home/ritishdhiman/RiderProjects/MongoExample/obj/Debug/net7.0/MongoExample.csproj.AssemblyReference.cache
+/home/ritishdhiman/RiderProjects/MongoExample/obj/Debug/net7.0/MongoExample.GeneratedMSBuildEditorConfig.editorconfig
+/home/ritishdhiman/RiderProjects/MongoExample/obj/Debug/net7.0/MongoExample.AssemblyInfoInputs.cache
+/home/ritishdhiman/RiderProjects/MongoExample/obj/Debug/net7.0/MongoExample.AssemblyInfo.cs
+/home/ritishdhiman/RiderProjects/MongoExample/obj/Debug/net7.0/MongoExample.csproj.CoreCompileInputs.cache
+/home/ritishdhiman/RiderProjects/MongoExample/obj/Debug/net7.0/MongoExample.MvcApplicationPartsAssemblyInfo.cs
+/home/ritishdhiman/RiderProjects/MongoExample/obj/Debug/net7.0/MongoExample.MvcApplicationPartsAssemblyInfo.cache
+/home/ritishdhiman/RiderProjects/MongoExample/obj/Debug/net7.0/staticwebassets/msbuild.MongoExample.Microsoft.AspNetCore.StaticWebAssets.props
+/home/ritishdhiman/RiderProjects/MongoExample/obj/Debug/net7.0/staticwebassets/msbuild.build.MongoExample.props
+/home/ritishdhiman/RiderProjects/MongoExample/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.MongoExample.props
+/home/ritishdhiman/RiderProjects/MongoExample/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.MongoExample.props
+/home/ritishdhiman/RiderProjects/MongoExample/obj/Debug/net7.0/staticwebassets.pack.json
+/home/ritishdhiman/RiderProjects/MongoExample/obj/Debug/net7.0/staticwebassets.build.json
+/home/ritishdhiman/RiderProjects/MongoExample/obj/Debug/net7.0/staticwebassets.development.json
+/home/ritishdhiman/RiderProjects/MongoExample/obj/Debug/net7.0/scopedcss/bundle/MongoExample.styles.css
+/home/ritishdhiman/RiderProjects/MongoExample/obj/Debug/net7.0/MongoExample.csproj.CopyComplete
+/home/ritishdhiman/RiderProjects/MongoExample/obj/Debug/net7.0/MongoExample.dll
+/home/ritishdhiman/RiderProjects/MongoExample/obj/Debug/net7.0/refint/MongoExample.dll
+/home/ritishdhiman/RiderProjects/MongoExample/obj/Debug/net7.0/MongoExample.pdb
+/home/ritishdhiman/RiderProjects/MongoExample/obj/Debug/net7.0/MongoExample.genruntimeconfig.cache
+/home/ritishdhiman/RiderProjects/MongoExample/obj/Debug/net7.0/ref/MongoExample.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/appsettings.Development.json
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/appsettings.json
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/MongoExample
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/MongoExample.deps.json
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/MongoExample.runtimeconfig.json
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/MongoExample.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/MongoExample.pdb
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/AutoMapper.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/AWSSDK.Core.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/AWSSDK.SecurityToken.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/BitFaster.Caching.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/DnsClient.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/EventStore.ClientAPI.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/FluentValidation.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/FluentValidation.DependencyInjectionExtensions.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/Hangfire.AspNetCore.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/Hangfire.Core.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/Hangfire.NetCore.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/Hangfire.SqlServer.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/Hangfire.Storage.SQLite.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/MediatR.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/MediatR.Contracts.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/Microsoft.AspNetCore.OpenApi.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/Microsoft.Extensions.Configuration.Binder.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/Microsoft.Extensions.DependencyInjection.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/Microsoft.Extensions.Diagnostics.Abstractions.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/Microsoft.Extensions.FileProviders.Abstractions.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/Microsoft.Extensions.Hosting.Abstractions.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/Microsoft.Extensions.Logging.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/Microsoft.Extensions.Logging.Abstractions.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/Microsoft.Extensions.Options.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/Microsoft.Extensions.Primitives.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/Microsoft.OpenApi.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/MongoDB.Bson.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/MongoDB.Driver.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/MongoDB.Driver.Core.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/MongoDB.Libmongocrypt.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/Newtonsoft.Json.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/NServiceBus.Core.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/NServiceBus.Extensions.Hosting.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/NServiceBus.MessageInterfaces.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/NServiceBus.Transport.RabbitMQ.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/protobuf-net.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/protobuf-net.Core.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/RabbitMQ.Client.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/Serilog.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/Serilog.AspNetCore.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/Serilog.Extensions.Hosting.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/Serilog.Extensions.Logging.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/Serilog.Formatting.Compact.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/Serilog.Settings.Configuration.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/Serilog.Sinks.Console.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/Serilog.Sinks.Debug.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/Serilog.Sinks.File.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/Serilog.Sinks.Seq.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/SharpCompress.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/Snappier.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/SQLite-net.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/SQLitePCLRaw.batteries_v2.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/SQLitePCLRaw.nativelibrary.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/SQLitePCLRaw.core.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/SQLitePCLRaw.provider.dynamic_cdecl.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/System.Diagnostics.DiagnosticSource.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/System.Security.Cryptography.Pkcs.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/System.Security.Cryptography.Xml.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/System.Text.Encodings.Web.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/System.Text.Json.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/ZstdSharp.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/runtimes/linux/native/libmongocrypt.so
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/runtimes/osx/native/libmongocrypt.dylib
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/runtimes/win/native/mongocrypt.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/runtimes/alpine-x64/native/libe_sqlite3.so
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/runtimes/linux-arm/native/libe_sqlite3.so
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/runtimes/linux-arm64/native/libe_sqlite3.so
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/runtimes/linux-armel/native/libe_sqlite3.so
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/runtimes/linux-mips64/native/libe_sqlite3.so
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/runtimes/linux-musl-x64/native/libe_sqlite3.so
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/runtimes/linux-x64/native/libe_sqlite3.so
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/runtimes/linux-x86/native/libe_sqlite3.so
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/runtimes/osx-x64/native/libe_sqlite3.dylib
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/runtimes/win-arm/native/e_sqlite3.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/runtimes/win-arm64/native/e_sqlite3.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/runtimes/win-x64/native/e_sqlite3.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/runtimes/win-x86/native/e_sqlite3.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/runtimes/win/lib/net7.0/System.Security.Cryptography.Pkcs.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/bin/Debug/net7.0/runtimes/browser/lib/net7.0/System.Text.Encodings.Web.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/obj/Debug/net7.0/MongoExample.csproj.AssemblyReference.cache
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/obj/Debug/net7.0/MongoExample.GeneratedMSBuildEditorConfig.editorconfig
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/obj/Debug/net7.0/MongoExample.AssemblyInfoInputs.cache
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/obj/Debug/net7.0/MongoExample.AssemblyInfo.cs
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/obj/Debug/net7.0/MongoExample.csproj.CoreCompileInputs.cache
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/obj/Debug/net7.0/MongoExample.MvcApplicationPartsAssemblyInfo.cs
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/obj/Debug/net7.0/MongoExample.MvcApplicationPartsAssemblyInfo.cache
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/obj/Debug/net7.0/staticwebassets/msbuild.MongoExample.Microsoft.AspNetCore.StaticWebAssets.props
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/obj/Debug/net7.0/staticwebassets/msbuild.build.MongoExample.props
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.MongoExample.props
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.MongoExample.props
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/obj/Debug/net7.0/staticwebassets.pack.json
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/obj/Debug/net7.0/staticwebassets.build.json
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/obj/Debug/net7.0/staticwebassets.development.json
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/obj/Debug/net7.0/scopedcss/bundle/MongoExample.styles.css
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/obj/Debug/net7.0/MongoExample.csproj.CopyComplete
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/obj/Debug/net7.0/MongoExample.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/obj/Debug/net7.0/refint/MongoExample.dll
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/obj/Debug/net7.0/MongoExample.pdb
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/obj/Debug/net7.0/MongoExample.genruntimeconfig.cache
+/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)/obj/Debug/net7.0/ref/MongoExample.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/appsettings.Development.json
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/appsettings.json
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/MongoExample
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/MongoExample.deps.json
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/MongoExample.runtimeconfig.json
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/MongoExample.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/MongoExample.pdb
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/AutoMapper.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/AWSSDK.Core.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/AWSSDK.SecurityToken.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/BitFaster.Caching.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/DnsClient.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/EventStore.ClientAPI.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/FluentValidation.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/FluentValidation.DependencyInjectionExtensions.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/Hangfire.AspNetCore.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/Hangfire.Core.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/Hangfire.NetCore.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/Hangfire.SqlServer.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/Hangfire.Storage.SQLite.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/MediatR.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/MediatR.Contracts.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/Microsoft.AspNetCore.OpenApi.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/Microsoft.Extensions.Configuration.Binder.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/Microsoft.Extensions.DependencyInjection.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/Microsoft.Extensions.Diagnostics.Abstractions.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/Microsoft.Extensions.FileProviders.Abstractions.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/Microsoft.Extensions.Hosting.Abstractions.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/Microsoft.Extensions.Logging.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/Microsoft.Extensions.Logging.Abstractions.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/Microsoft.Extensions.Options.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/Microsoft.Extensions.Primitives.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/Microsoft.OpenApi.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/MongoDB.Bson.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/MongoDB.Driver.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/MongoDB.Driver.Core.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/MongoDB.Libmongocrypt.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/Newtonsoft.Json.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/NServiceBus.Core.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/NServiceBus.Extensions.Hosting.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/NServiceBus.MessageInterfaces.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/NServiceBus.Transport.RabbitMQ.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/protobuf-net.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/protobuf-net.Core.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/RabbitMQ.Client.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/Serilog.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/Serilog.AspNetCore.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/Serilog.Extensions.Hosting.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/Serilog.Extensions.Logging.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/Serilog.Formatting.Compact.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/Serilog.Settings.Configuration.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/Serilog.Sinks.Console.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/Serilog.Sinks.Debug.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/Serilog.Sinks.File.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/Serilog.Sinks.Seq.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/SharpCompress.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/Snappier.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/SQLite-net.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/SQLitePCLRaw.batteries_v2.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/SQLitePCLRaw.nativelibrary.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/SQLitePCLRaw.core.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/SQLitePCLRaw.provider.dynamic_cdecl.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/System.Diagnostics.DiagnosticSource.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/System.Security.Cryptography.Pkcs.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/System.Security.Cryptography.Xml.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/System.Text.Encodings.Web.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/System.Text.Json.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/ZstdSharp.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/runtimes/linux/native/libmongocrypt.so
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/runtimes/osx/native/libmongocrypt.dylib
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/runtimes/win/native/mongocrypt.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/runtimes/alpine-x64/native/libe_sqlite3.so
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/runtimes/linux-arm/native/libe_sqlite3.so
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/runtimes/linux-arm64/native/libe_sqlite3.so
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/runtimes/linux-armel/native/libe_sqlite3.so
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/runtimes/linux-mips64/native/libe_sqlite3.so
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/runtimes/linux-musl-x64/native/libe_sqlite3.so
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/runtimes/linux-x64/native/libe_sqlite3.so
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/runtimes/linux-x86/native/libe_sqlite3.so
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/runtimes/osx-x64/native/libe_sqlite3.dylib
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/runtimes/win-arm/native/e_sqlite3.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/runtimes/win-arm64/native/e_sqlite3.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/runtimes/win-x64/native/e_sqlite3.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/runtimes/win-x86/native/e_sqlite3.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/runtimes/win/lib/net7.0/System.Security.Cryptography.Pkcs.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/bin/Debug/net7.0/runtimes/browser/lib/net7.0/System.Text.Encodings.Web.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/obj/Debug/net7.0/MongoExample.csproj.AssemblyReference.cache
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/obj/Debug/net7.0/MongoExample.GeneratedMSBuildEditorConfig.editorconfig
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/obj/Debug/net7.0/MongoExample.AssemblyInfoInputs.cache
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/obj/Debug/net7.0/MongoExample.AssemblyInfo.cs
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/obj/Debug/net7.0/MongoExample.csproj.CoreCompileInputs.cache
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/obj/Debug/net7.0/MongoExample.MvcApplicationPartsAssemblyInfo.cs
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/obj/Debug/net7.0/MongoExample.MvcApplicationPartsAssemblyInfo.cache
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/obj/Debug/net7.0/staticwebassets/msbuild.MongoExample.Microsoft.AspNetCore.StaticWebAssets.props
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/obj/Debug/net7.0/staticwebassets/msbuild.build.MongoExample.props
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.MongoExample.props
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.MongoExample.props
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/obj/Debug/net7.0/staticwebassets.pack.json
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/obj/Debug/net7.0/staticwebassets.build.json
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/obj/Debug/net7.0/staticwebassets.development.json
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/obj/Debug/net7.0/scopedcss/bundle/MongoExample.styles.css
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/obj/Debug/net7.0/MongoExample.csproj.CopyComplete
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/obj/Debug/net7.0/MongoExample.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/obj/Debug/net7.0/refint/MongoExample.dll
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/obj/Debug/net7.0/MongoExample.pdb
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/obj/Debug/net7.0/MongoExample.genruntimeconfig.cache
+/home/ritishdhiman/RiderProjects/Hangfire/MongoExample (copy)/obj/Debug/net7.0/ref/MongoExample.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/appsettings.Development.json
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/appsettings.json
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/MongoExample
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/MongoExample.deps.json
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/MongoExample.runtimeconfig.json
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/MongoExample.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/MongoExample.pdb
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/AutoMapper.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/AWSSDK.Core.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/AWSSDK.SecurityToken.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/BitFaster.Caching.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/DnsClient.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/EventStore.ClientAPI.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/FluentValidation.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/FluentValidation.DependencyInjectionExtensions.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/Hangfire.AspNetCore.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/Hangfire.Core.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/Hangfire.NetCore.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/Hangfire.SqlServer.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/Hangfire.Storage.SQLite.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/MediatR.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/MediatR.Contracts.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/Microsoft.AspNetCore.OpenApi.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/Microsoft.Extensions.Configuration.Binder.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/Microsoft.Extensions.DependencyInjection.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/Microsoft.Extensions.Diagnostics.Abstractions.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/Microsoft.Extensions.FileProviders.Abstractions.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/Microsoft.Extensions.Hosting.Abstractions.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/Microsoft.Extensions.Logging.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/Microsoft.Extensions.Logging.Abstractions.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/Microsoft.Extensions.Options.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/Microsoft.Extensions.Primitives.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/Microsoft.OpenApi.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/MongoDB.Bson.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/MongoDB.Driver.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/MongoDB.Driver.Core.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/MongoDB.Libmongocrypt.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/Newtonsoft.Json.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/NServiceBus.Core.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/NServiceBus.Extensions.Hosting.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/NServiceBus.MessageInterfaces.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/NServiceBus.Transport.RabbitMQ.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/protobuf-net.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/protobuf-net.Core.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/RabbitMQ.Client.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/Serilog.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/Serilog.AspNetCore.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/Serilog.Extensions.Hosting.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/Serilog.Extensions.Logging.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/Serilog.Formatting.Compact.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/Serilog.Settings.Configuration.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/Serilog.Sinks.Console.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/Serilog.Sinks.Debug.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/Serilog.Sinks.File.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/Serilog.Sinks.Seq.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/SharpCompress.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/Snappier.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/SQLite-net.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/SQLitePCLRaw.batteries_v2.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/SQLitePCLRaw.nativelibrary.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/SQLitePCLRaw.core.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/SQLitePCLRaw.provider.dynamic_cdecl.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/System.Diagnostics.DiagnosticSource.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/System.Security.Cryptography.Pkcs.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/System.Security.Cryptography.Xml.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/System.Text.Encodings.Web.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/System.Text.Json.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/ZstdSharp.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/runtimes/linux/native/libmongocrypt.so
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/runtimes/osx/native/libmongocrypt.dylib
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/runtimes/win/native/mongocrypt.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/runtimes/alpine-x64/native/libe_sqlite3.so
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/runtimes/linux-arm/native/libe_sqlite3.so
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/runtimes/linux-arm64/native/libe_sqlite3.so
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/runtimes/linux-armel/native/libe_sqlite3.so
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/runtimes/linux-mips64/native/libe_sqlite3.so
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/runtimes/linux-musl-x64/native/libe_sqlite3.so
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/runtimes/linux-x64/native/libe_sqlite3.so
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/runtimes/linux-x86/native/libe_sqlite3.so
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/runtimes/osx-x64/native/libe_sqlite3.dylib
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/runtimes/win-arm/native/e_sqlite3.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/runtimes/win-arm64/native/e_sqlite3.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/runtimes/win-x64/native/e_sqlite3.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/runtimes/win-x86/native/e_sqlite3.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/runtimes/win/lib/net7.0/System.Security.Cryptography.Pkcs.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/runtimes/browser/lib/net7.0/System.Text.Encodings.Web.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/obj/Debug/net7.0/MongoExample.csproj.AssemblyReference.cache
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/obj/Debug/net7.0/MongoExample.GeneratedMSBuildEditorConfig.editorconfig
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/obj/Debug/net7.0/MongoExample.AssemblyInfoInputs.cache
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/obj/Debug/net7.0/MongoExample.AssemblyInfo.cs
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/obj/Debug/net7.0/MongoExample.csproj.CoreCompileInputs.cache
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/obj/Debug/net7.0/MongoExample.MvcApplicationPartsAssemblyInfo.cs
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/obj/Debug/net7.0/MongoExample.MvcApplicationPartsAssemblyInfo.cache
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/obj/Debug/net7.0/staticwebassets/msbuild.MongoExample.Microsoft.AspNetCore.StaticWebAssets.props
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/obj/Debug/net7.0/staticwebassets/msbuild.build.MongoExample.props
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.MongoExample.props
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.MongoExample.props
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/obj/Debug/net7.0/staticwebassets.pack.json
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/obj/Debug/net7.0/staticwebassets.build.json
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/obj/Debug/net7.0/staticwebassets.development.json
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/obj/Debug/net7.0/scopedcss/bundle/MongoExample.styles.css
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/obj/Debug/net7.0/MongoExample.csproj.CopyComplete
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/obj/Debug/net7.0/MongoExample.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/obj/Debug/net7.0/refint/MongoExample.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/obj/Debug/net7.0/MongoExample.pdb
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/obj/Debug/net7.0/MongoExample.genruntimeconfig.cache
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/obj/Debug/net7.0/ref/MongoExample.dll
+/home/ritishdhiman/RiderProjects/June28/MongoExample (copy)/bin/Debug/net7.0/Hangfire.Mongo.dll

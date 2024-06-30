@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1f43cc0b-2fb8-4ecd-a5c1-72044fd12f08" name="Changes" comment="commit&#10;Implementing CQRS Mapper Fluent Validation logging using serilog and seq">
+      <change afterPath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/DynamicRouting/RouteToAttribue.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/Services/IServiceManagement.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/Services/ServiceManagement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CQRS/.idea/.idea.CQRS.dir/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/Contracts/IUserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/Contracts/IUserRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/Contracts/UserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/Contracts/UserRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/Controllers/UserController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/Controllers/UserController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/Features/Command/CreateUserCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/Features/Command/CreateUserCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/Features/Command/CreateUserCommandHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/Features/Command/CreateUserCommandHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/Features/Command/Dto/UserDto.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/Features/Command/UserValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/Features/Command/UserValidator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/Features/Query/CreateUserQuery.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/Features/Query/CreateUserQueryHandler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/Features/Query/GetUserQuery.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/Features/Query/GetUserQuery.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/Features/Query/GetUserQueryHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/Features/Query/GetUserQueryHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/MappingProfile/UserProfile.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/Models/EventstoreSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/Models/EventstoreSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/Models/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/Models/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/MongoExample.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/MongoExample.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/Services/EventStoreHttpClient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/Services/EventStoreHttpClient.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/Services/MongodbService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/Services/MongodbService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/bin/Debug/net7.0/MongoExample.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/bin/Debug/net7.0/MongoExample.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/bin/Debug/net7.0/MongoExample.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/bin/Debug/net7.0/MongoExample.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/bin/Debug/net7.0/MongoExample.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/bin/Debug/net7.0/MongoExample.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/bin/Debug/net7.0/Serilog.Sinks.File.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/bin/Debug/net7.0/Serilog.Sinks.File.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/bin/Debug/net7.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/bin/Debug/net7.0/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/obj/Debug/net7.0/MongoExample.GlobalUsings.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/obj/Debug/net7.0/MongoExample.GlobalUsings.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/obj/Debug/net7.0/MongoExample.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/obj/Debug/net7.0/MongoExample.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/obj/Debug/net7.0/MongoExample.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/obj/Debug/net7.0/MongoExample.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/obj/Debug/net7.0/MongoExample.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/obj/Debug/net7.0/MongoExample.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/obj/Debug/net7.0/MongoExample.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/obj/Debug/net7.0/MongoExample.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/obj/Debug/net7.0/MongoExample.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/obj/Debug/net7.0/MongoExample.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/obj/Debug/net7.0/MongoExample.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/obj/Debug/net7.0/MongoExample.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/obj/Debug/net7.0/ref/MongoExample.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/obj/Debug/net7.0/ref/MongoExample.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/obj/Debug/net7.0/refint/MongoExample.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/obj/Debug/net7.0/refint/MongoExample.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/obj/MongoExample.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/obj/MongoExample.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/obj/MongoExample.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/obj/MongoExample.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/obj/MongoExample.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/obj/MongoExample.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../../CQRS/MongoExample (copy)/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/.idea/.idea.DemoApplication/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/.idea/.idea.DemoApplication/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/.idea/.idea.DemoApplication/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/DemoApplication.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/DemoApplication/DemoApplication.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/DemoApplication/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/DemoApplication/bin/Debug/net7.0/DemoApplication" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/DemoApplication/bin/Debug/net7.0/DemoApplication.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/DemoApplication/bin/Debug/net7.0/DemoApplication.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/DemoApplication/bin/Debug/net7.0/DemoApplication.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/DemoApplication/bin/Debug/net7.0/DemoApplication.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/DemoApplication/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/DemoApplication/obj/Debug/net7.0/DemoApplication.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/DemoApplication/obj/Debug/net7.0/DemoApplication.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/DemoApplication/obj/Debug/net7.0/DemoApplication.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/DemoApplication/obj/Debug/net7.0/DemoApplication.GlobalUsings.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/DemoApplication/obj/Debug/net7.0/DemoApplication.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/DemoApplication/obj/Debug/net7.0/DemoApplication.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/DemoApplication/obj/Debug/net7.0/DemoApplication.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/DemoApplication/obj/Debug/net7.0/DemoApplication.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/DemoApplication/obj/Debug/net7.0/DemoApplication.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/DemoApplication/obj/Debug/net7.0/DemoApplication.genruntimeconfig.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/DemoApplication/obj/Debug/net7.0/DemoApplication.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/DemoApplication/obj/Debug/net7.0/apphost" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/DemoApplication/obj/Debug/net7.0/ref/DemoApplication.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/DemoApplication/obj/Debug/net7.0/refint/DemoApplication.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/DemoApplication/obj/DemoApplication.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/DemoApplication/obj/DemoApplication.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/DemoApplication/obj/DemoApplication.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/DemoApplication/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/DemoApplication/obj/project.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/DemoApplication/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/DemoApplication/obj/rider.project.restore.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.LeaveManagement.Domian/Common/BaseEntity.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.LeaveManagement.Domian/HR.LeaveManagement.Domian.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.LeaveManagement.Domian/LeaveAllocation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.LeaveManagement.Domian/LeaveRequest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.LeaveManagement.Domian/LeaveType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.LeaveManagement.Domian/bin/Debug/net7.0/HR.LeaveManagement.Domian.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.LeaveManagement.Domian/bin/Debug/net7.0/HR.LeaveManagement.Domian.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.LeaveManagement.Domian/bin/Debug/net7.0/HR.LeaveManagement.Domian.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.LeaveManagement.Domian/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.LeaveManagement.Domian/obj/Debug/net7.0/HR.LeaveManagement.Domian.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.LeaveManagement.Domian/obj/Debug/net7.0/HR.LeaveManagement.Domian.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.LeaveManagement.Domian/obj/Debug/net7.0/HR.LeaveManagement.Domian.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.LeaveManagement.Domian/obj/Debug/net7.0/HR.LeaveManagement.Domian.GlobalUsings.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.LeaveManagement.Domian/obj/Debug/net7.0/HR.LeaveManagement.Domian.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.LeaveManagement.Domian/obj/Debug/net7.0/HR.LeaveManagement.Domian.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.LeaveManagement.Domian/obj/Debug/net7.0/HR.LeaveManagement.Domian.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.LeaveManagement.Domian/obj/Debug/net7.0/HR.LeaveManagement.Domian.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.LeaveManagement.Domian/obj/Debug/net7.0/HR.LeaveManagement.Domian.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.LeaveManagement.Domian/obj/Debug/net7.0/HR.LeaveManagement.Domian.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.LeaveManagement.Domian/obj/Debug/net7.0/HRLeaveManagementSystem.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.LeaveManagement.Domian/obj/Debug/net7.0/HRLeaveManagementSystem.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.LeaveManagement.Domian/obj/Debug/net7.0/HRLeaveManagementSystem.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.LeaveManagement.Domian/obj/Debug/net7.0/HRLeaveManagementSystem.GlobalUsings.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.LeaveManagement.Domian/obj/Debug/net7.0/HRLeaveManagementSystem.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.LeaveManagement.Domian/obj/Debug/net7.0/HRLeaveManagementSystem.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.LeaveManagement.Domian/obj/Debug/net7.0/ref/HR.LeaveManagement.Domian.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.LeaveManagement.Domian/obj/Debug/net7.0/refint/HR.LeaveManagement.Domian.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.LeaveManagement.Domian/obj/HR.LeaveManagement.Domian.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.LeaveManagement.Domian/obj/HR.LeaveManagement.Domian.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.LeaveManagement.Domian/obj/HR.LeaveManagement.Domian.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.LeaveManagement.Domian/obj/HRLeaveManagementSystem.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.LeaveManagement.Domian/obj/HRLeaveManagementSystem.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.LeaveManagement.Domian/obj/HRLeaveManagementSystem.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.LeaveManagement.Domian/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.LeaveManagement.Domian/obj/project.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.LeaveManagement.Domian/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.LeaveManagement.Domian/obj/rider.project.model.nuget.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.LeaveManagement.Domian/obj/rider.project.restore.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.LeaveManagement.Persistence/Class1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.LeaveManagement.Persistence/HR.LeaveManagement.Persistence.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.LeaveManagement.Persistence/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.LeaveManagement.Persistence/obj/Debug/net7.0/HR.LeaveManagement.Persistence.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.LeaveManagement.Persistence/obj/Debug/net7.0/HR.LeaveManagement.Persistence.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.LeaveManagement.Persistence/obj/Debug/net7.0/HR.LeaveManagement.Persistence.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.LeaveManagement.Persistence/obj/Debug/net7.0/HR.LeaveManagement.Persistence.GlobalUsings.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.LeaveManagement.Persistence/obj/Debug/net7.0/HR.LeaveManagement.Persistence.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.LeaveManagement.Persistence/obj/Debug/net7.0/HR.LeaveManagement.Persistence.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.LeaveManagement.Persistence/obj/HR.LeaveManagement.Persistence.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.LeaveManagement.Persistence/obj/HR.LeaveManagement.Persistence.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.LeaveManagement.Persistence/obj/HR.LeaveManagement.Persistence.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.LeaveManagement.Persistence/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.LeaveManagement.Persistence/obj/project.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.LeaveManagement.Persistence/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.LeaveManagement.Persistence/obj/rider.project.model.nuget.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.LeaveManagement.Persistence/obj/rider.project.restore.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.Management.Application/ApplicationRegistrationService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.Management.Application/Contracts/IGenericRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.Management.Application/Contracts/ILeaveAllocationRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.Management.Application/Contracts/ILeaveRequestRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.Management.Application/Contracts/ILeaveTypeRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.Management.Application/Exception/BadRequestException.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.Management.Application/Exception/NotFoundException.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.Management.Application/Features/Commands/CreateLeaveType/CreateLeaveCommandHandler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.Management.Application/Features/Commands/CreateLeaveType/CreateLeaveTypeCommand.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.Management.Application/Features/Commands/CreateLeaveType/CreateLeaveTypeCommandValidator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.Management.Application/Features/Commands/DeleteLeaveType/DeleteLeaveTypeCommand.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.Management.Application/Features/Commands/DeleteLeaveType/DeleteLeaveTypeCommandHandler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.Management.Application/Features/Commands/UpdateLeaveType/UpdateLeaveTypeCommand.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.Management.Application/Features/Commands/UpdateLeaveType/UpdateLeaveTypeCommandHandler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.Management.Application/Features/Queries/GetAllLeavesTypes/GetLeaveTypeQuery.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.Management.Application/Features/Queries/GetAllLeavesTypes/GetLeaveTypeQueryHandler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.Management.Application/Features/Queries/GetAllLeavesTypes/LeaveTypeDto.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.Management.Application/Features/Queries/GetDetailsTypeQuery/GetLeaveTypeDetailsQuery.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.Management.Application/Features/Queries/GetDetailsTypeQuery/GetLeaveTypeQueryHandler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.Management.Application/Features/Queries/GetDetailsTypeQuery/LeaveTypeDetailsDto.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.Management.Application/HR.Management.Application.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.Management.Application/MappingProfile/LeaveTypeProfiles.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.Management.Application/bin/Debug/net7.0/HR.LeaveManagement.Domian.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.Management.Application/bin/Debug/net7.0/HR.LeaveManagement.Domian.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.Management.Application/bin/Debug/net7.0/HR.Management.Application.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.Management.Application/bin/Debug/net7.0/HR.Management.Application.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.Management.Application/bin/Debug/net7.0/HR.Management.Application.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.Management.Application/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.Management.Application/obj/Debug/net7.0/HR.Management.Application.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.Management.Application/obj/Debug/net7.0/HR.Management.Application.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.Management.Application/obj/Debug/net7.0/HR.Management.Application.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.Management.Application/obj/Debug/net7.0/HR.Management.Application.GlobalUsings.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.Management.Application/obj/Debug/net7.0/HR.Management.Application.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.Management.Application/obj/Debug/net7.0/HR.Management.Application.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.Management.Application/obj/Debug/net7.0/HR.Management.Application.csproj.CopyComplete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.Management.Application/obj/Debug/net7.0/HR.Management.Application.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.Management.Application/obj/Debug/net7.0/HR.Management.Application.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.Management.Application/obj/Debug/net7.0/HR.Management.Application.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.Management.Application/obj/Debug/net7.0/HR.Management.Application.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.Management.Application/obj/Debug/net7.0/ref/HR.Management.Application.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.Management.Application/obj/Debug/net7.0/refint/HR.Management.Application.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.Management.Application/obj/HR.Management.Application.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.Management.Application/obj/HR.Management.Application.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.Management.Application/obj/HR.Management.Application.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.Management.Application/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.Management.Application/obj/project.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.Management.Application/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.Management.Application/obj/rider.project.model.nuget.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DemoApplication/HR.Management.Application/obj/rider.project.restore.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/CQRS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/.idea/.idea.FireApp.dir/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/.idea/.idea.FireApp.dir/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/.idea/.idea.FireApp.dir/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/.idea/.idea.FireApp.dir/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/Controllers/DriversController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/FireApp.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/Models/Driver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/Services/IServiceManagement.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/Services/ServiceManagement.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/bin/Debug/net7.0/FireApp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/bin/Debug/net7.0/FireApp.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/bin/Debug/net7.0/FireApp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/bin/Debug/net7.0/FireApp.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/bin/Debug/net7.0/FireApp.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/bin/Debug/net7.0/Hangfire.AspNetCore.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/bin/Debug/net7.0/Hangfire.Core.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/bin/Debug/net7.0/Hangfire.NetCore.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/bin/Debug/net7.0/Hangfire.SqlServer.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/bin/Debug/net7.0/Hangfire.Storage.SQLite.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/bin/Debug/net7.0/Microsoft.AspNetCore.OpenApi.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/bin/Debug/net7.0/Microsoft.OpenApi.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/bin/Debug/net7.0/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/bin/Debug/net7.0/SQLite-net.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/bin/Debug/net7.0/SQLitePCLRaw.batteries_v2.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/bin/Debug/net7.0/SQLitePCLRaw.core.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/bin/Debug/net7.0/SQLitePCLRaw.nativelibrary.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/bin/Debug/net7.0/SQLitePCLRaw.provider.dynamic_cdecl.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/bin/Debug/net7.0/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/bin/Debug/net7.0/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/bin/Debug/net7.0/runtimes/alpine-x64/native/libe_sqlite3.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/bin/Debug/net7.0/runtimes/linux-arm/native/libe_sqlite3.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/bin/Debug/net7.0/runtimes/linux-arm64/native/libe_sqlite3.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/bin/Debug/net7.0/runtimes/linux-armel/native/libe_sqlite3.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/bin/Debug/net7.0/runtimes/linux-mips64/native/libe_sqlite3.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/bin/Debug/net7.0/runtimes/linux-musl-x64/native/libe_sqlite3.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/bin/Debug/net7.0/runtimes/linux-x64/native/libe_sqlite3.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/bin/Debug/net7.0/runtimes/linux-x86/native/libe_sqlite3.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/bin/Debug/net7.0/runtimes/osx-x64/native/libe_sqlite3.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/bin/Debug/net7.0/runtimes/win-arm/native/e_sqlite3.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/bin/Debug/net7.0/runtimes/win-arm64/native/e_sqlite3.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/bin/Debug/net7.0/runtimes/win-x64/native/e_sqlite3.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/bin/Debug/net7.0/runtimes/win-x86/native/e_sqlite3.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/fireapp.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/fireapp.db-shm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/fireapp.db-wal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/obj/Debug/net7.0/FireApp.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/obj/Debug/net7.0/FireApp.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/obj/Debug/net7.0/FireApp.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/obj/Debug/net7.0/FireApp.GlobalUsings.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/obj/Debug/net7.0/FireApp.MvcApplicationPartsAssemblyInfo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/obj/Debug/net7.0/FireApp.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/obj/Debug/net7.0/FireApp.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/obj/Debug/net7.0/FireApp.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/obj/Debug/net7.0/FireApp.csproj.CopyComplete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/obj/Debug/net7.0/FireApp.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/obj/Debug/net7.0/FireApp.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/obj/Debug/net7.0/FireApp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/obj/Debug/net7.0/FireApp.genruntimeconfig.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/obj/Debug/net7.0/FireApp.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/obj/Debug/net7.0/apphost" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/obj/Debug/net7.0/ref/FireApp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/obj/Debug/net7.0/refint/FireApp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/obj/Debug/net7.0/staticwebassets.build.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/obj/Debug/net7.0/staticwebassets/msbuild.build.FireApp.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.FireApp.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.FireApp.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/obj/FireApp.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/obj/FireApp.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/obj/FireApp.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/obj/project.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/obj/rider.project.model.nuget.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Final Projects/FireApp/obj/rider.project.restore.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/.idea/.idea.HangfireDemo.dir/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/.idea/.idea.HangfireDemo.dir/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/.idea/.idea.HangfireDemo.dir/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/.idea/.idea.HangfireDemo.dir/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/Controllers/WeatherForecastController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/HangfireDemo.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/WeatherForecast.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/bin/Debug/net7.0/Hangfire.AspNetCore.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/bin/Debug/net7.0/Hangfire.Core.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/bin/Debug/net7.0/Hangfire.NetCore.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/bin/Debug/net7.0/Hangfire.SqlServer.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/bin/Debug/net7.0/Hangfire.Storage.SQLite.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/bin/Debug/net7.0/HangfireBasicAuthenticationFilter.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/bin/Debug/net7.0/HangfireDemo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/bin/Debug/net7.0/HangfireDemo.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/bin/Debug/net7.0/HangfireDemo.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/bin/Debug/net7.0/HangfireDemo.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/bin/Debug/net7.0/HangfireDemo.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/bin/Debug/net7.0/Microsoft.AspNetCore.OpenApi.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/bin/Debug/net7.0/Microsoft.OpenApi.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/bin/Debug/net7.0/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/bin/Debug/net7.0/SQLite-net.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/bin/Debug/net7.0/SQLitePCLRaw.batteries_v2.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/bin/Debug/net7.0/SQLitePCLRaw.core.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/bin/Debug/net7.0/SQLitePCLRaw.nativelibrary.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/bin/Debug/net7.0/SQLitePCLRaw.provider.dynamic_cdecl.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/bin/Debug/net7.0/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/bin/Debug/net7.0/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/bin/Debug/net7.0/runtimes/alpine-x64/native/libe_sqlite3.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/bin/Debug/net7.0/runtimes/linux-arm/native/libe_sqlite3.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/bin/Debug/net7.0/runtimes/linux-arm64/native/libe_sqlite3.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/bin/Debug/net7.0/runtimes/linux-armel/native/libe_sqlite3.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/bin/Debug/net7.0/runtimes/linux-mips64/native/libe_sqlite3.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/bin/Debug/net7.0/runtimes/linux-musl-x64/native/libe_sqlite3.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/bin/Debug/net7.0/runtimes/linux-x64/native/libe_sqlite3.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/bin/Debug/net7.0/runtimes/linux-x86/native/libe_sqlite3.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/bin/Debug/net7.0/runtimes/osx-x64/native/libe_sqlite3.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/bin/Debug/net7.0/runtimes/win-arm/native/e_sqlite3.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/bin/Debug/net7.0/runtimes/win-arm64/native/e_sqlite3.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/bin/Debug/net7.0/runtimes/win-x64/native/e_sqlite3.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/bin/Debug/net7.0/runtimes/win-x86/native/e_sqlite3.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/obj/Debug/net7.0/HangfireDemo.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/obj/Debug/net7.0/HangfireDemo.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/obj/Debug/net7.0/HangfireDemo.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/obj/Debug/net7.0/HangfireDemo.GlobalUsings.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/obj/Debug/net7.0/HangfireDemo.MvcApplicationPartsAssemblyInfo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/obj/Debug/net7.0/HangfireDemo.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/obj/Debug/net7.0/HangfireDemo.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/obj/Debug/net7.0/HangfireDemo.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/obj/Debug/net7.0/HangfireDemo.csproj.CopyComplete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/obj/Debug/net7.0/HangfireDemo.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/obj/Debug/net7.0/HangfireDemo.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/obj/Debug/net7.0/HangfireDemo.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/obj/Debug/net7.0/HangfireDemo.genruntimeconfig.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/obj/Debug/net7.0/HangfireDemo.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/obj/Debug/net7.0/apphost" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/obj/Debug/net7.0/ref/HangfireDemo.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/obj/Debug/net7.0/refint/HangfireDemo.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/obj/Debug/net7.0/staticwebassets.build.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/obj/Debug/net7.0/staticwebassets/msbuild.build.HangfireDemo.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.HangfireDemo.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.HangfireDemo.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/obj/HangfireDemo.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/obj/HangfireDemo.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/obj/HangfireDemo.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/obj/project.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/obj/rider.project.model.nuget.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HangfireDemo/obj/rider.project.restore.info" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DpaMonitoringSettings">
+    <option name="autoShow" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0f8b5154ab094f848e98c2974afa4471a2a200/03/1f772be3/AsyncTaskMethodBuilder`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0f8b5154ab094f848e98c2974afa4471a2a200/10/34acbe94/ManualResetEventSlim.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0f8b5154ab094f848e98c2974afa4471a2a200/4d/aa2b1a66/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0f8b5154ab094f848e98c2974afa4471a2a200/79/902a08b8/CustomAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0f8b5154ab094f848e98c2974afa4471a2a200/80/315f2219/ExecutionContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0f8b5154ab094f848e98c2974afa4471a2a200/b7/0b50f3e5/Guid.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3e741ba7dbc44a149e7110f52cc9173a2800/c5/4482db26/IMessage.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7cfd068dfc3c4b9d97826e57478989577f200/4d/0bb47eb9/GuidSerializer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8229df41a9ee4fe8bd9bcbc10164dfde1e2000/77/b39ca658/ActionMethodExecutor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/a1c5f8f85d354fa7a0616accb9623d9911c00/29/2580f201/IRequestHandler`2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e42708d30fec4d1b9c33163d19b145d8fa000/0e/76dca988/IAsyncCursorSourceExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2c58fd6df06934d450c49bc294667ab91080726af25b4b592d11ea4515193e/InvokeHandlerTerminator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/51a4f462d6eeaacc1d74f4f4f378be1b654df14c1d9cbe88b2434648aee0c946/AbstractValidator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b61c225fe8b65b19f13551513c6dbdbcf5cd7df681718ea5fd76fe88071/MessageSessionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2iM2zTrHulv3Hmaw6YiZJfg5G02" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.MongoExample: http.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/ritishdhiman/RiderProjects/CQRS/MongoExample (copy)&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;/home/ritishdhiman/.config/JetBrains/Rider2024.1/resharper-host/DecompilerCache&quot;,
+      &quot;/home/ritishdhiman/.config/JetBrains/Rider2024.1/resharper-host/SourcesCache&quot;,
+      &quot;/home/ritishdhiman/.local/share/Symbols/src&quot;
+    ]
+  }
+}</component>
+  <component name="RunManager" selected=".NET Launch Settings Profile.MongoExample: http">
+    <configuration name="MongoExample: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/MongoExample.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net7.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="http" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="MongoExample: https" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/MongoExample.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net7.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="https" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1f43cc0b-2fb8-4ecd-a5c1-72044fd12f08" name="Changes" comment="" />
+      <created>1719286388222</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1719286388222</updated>
+      <workItem from="1719286389368" duration="448000" />
+      <workItem from="1719286942700" duration="14672000" />
+      <workItem from="1719307896377" duration="1206000" />
+      <workItem from="1719379044074" duration="4192000" />
+      <workItem from="1719395610780" duration="19393000" />
+      <workItem from="1719546725395" duration="9028000" />
+      <workItem from="1719557238139" duration="306000" />
+      <workItem from="1719557571171" duration="10430000" />
+      <workItem from="1719644899409" duration="2237000" />
+      <workItem from="1719651491284" duration="816000" />
+      <workItem from="1719652358269" duration="183000" />
+      <workItem from="1719652638823" duration="9000" />
+      <workItem from="1719652839530" duration="116000" />
+      <workItem from="1719733945760" duration="7653000" />
+      <workItem from="1719754164559" duration="1609000" />
+    </task>
+    <task id="LOCAL-00001" summary="commit&#10;Implementing CQRS Mapper Fluent Validation logging using serilog and seq">
+      <option name="closed" value="true" />
+      <created>1719296957490</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1719296957490</updated>
+    </task>
+    <task id="LOCAL-00002" summary="commit&#10;Implementing CQRS Mapper Fluent Validation logging using serilog and seq">
+      <option name="closed" value="true" />
+      <created>1719307526763</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1719307526763</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit&#10;Implementing CQRS Mapper Fluent Validation logging using serilog and seq" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit&#10;Implementing CQRS Mapper Fluent Validation logging using serilog and seq" />
+    <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Controllers/UserController.cs</url>
+          <line>32</line>
+          <properties documentPath="$PROJECT_DIR$/Controllers/UserController.cs" containingFunctionPresentation="Method 'Post'">
+            <startOffsets>
+              <option value="1067" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1068" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Features/Query/GetUserQueryHandler.cs</url>
+          <line>17</line>
+          <properties documentPath="$PROJECT_DIR$/Features/Query/GetUserQueryHandler.cs" containingFunctionPresentation="Method 'Handle'">
+            <startOffsets>
+              <option value="506" />
+            </startOffsets>
+            <endOffsets>
+              <option value="507" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Features/Query/GetUserQueryHandler.cs</url>
+          <line>13</line>
+          <properties documentPath="$PROJECT_DIR$/Features/Query/GetUserQueryHandler.cs" containingFunctionPresentation="Constructor 'GetUserQueryHandler'">
+            <startOffsets>
+              <option value="358" />
+            </startOffsets>
+            <endOffsets>
+              <option value="359" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Services/EventStoreHttpClient.cs</url>
+          <line>96</line>
+          <properties documentPath="$PROJECT_DIR$/Services/EventStoreHttpClient.cs" containingFunctionPresentation="Method 'FetchAndWriteEventsToMongoAsync'">
+            <startOffsets>
+              <option value="3279" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3280" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Services/EventStoreHttpClient.cs</url>
+          <line>38</line>
+          <properties documentPath="$PROJECT_DIR$/Services/EventStoreHttpClient.cs" containingFunctionPresentation="Method 'AppendEventAsync'">
+            <startOffsets>
+              <option value="1497" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1498" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Features/Command/CreateUserCommandHandler.cs</url>
+          <line>25</line>
+          <properties documentPath="$PROJECT_DIR$/Features/Command/CreateUserCommandHandler.cs" containingFunctionPresentation="Method 'Handle'">
+            <startOffsets>
+              <option value="1187" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1207" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Program.cs</url>
+          <line>90</line>
+          <properties documentPath="$PROJECT_DIR$/Program.cs" containingFunctionPresentation="">
+            <startOffsets>
+              <option value="3246" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3247" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
