@@ -42,7 +42,7 @@ namespace DemoProject.Controllers
             await _messageSession.Send(createUserCommand);
             
             _logger.Information("Successfully posted details for  user {username} : ",currentUserName); 
-             RecurringJob.AddOrUpdate<IServiceManagement>(x=>x.UpdateDatabase(), Cron.Minutely);
+             RecurringJob.AddOrUpdate<IServiceManagement>("Add and Update the database Job",x=>x.UpdateDatabase(), Cron.Minutely);
 
              return Ok();
         }
