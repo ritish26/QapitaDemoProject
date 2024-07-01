@@ -35,7 +35,7 @@ namespace DemoProject.Controllers
             var validationResult = await _validator.ValidateAsync(createUserCommand);
             if (validationResult.Errors.Any())
             {
-                throw new Exception("Invalidation Result, Please check",new Exception(validationResult.ToString()));
+                throw new Exception("Invalidation Result, Please check :",new Exception(validationResult.ToString()));
             }
             
             var currentUserName= HelperClass.GetCurrentUser();

@@ -22,7 +22,7 @@ builder.Services.AddSingleton<MongodbService>();
 builder.Services.AddSingleton<IUserRepository, UserRepository>();
 builder.Services.AddSingleton<IServiceManagement, ServiceManagement>();
 
-//configure fluent validation
+//configure fluent validation and MediatR
 builder.Services.AddValidatorsFromAssemblyContaining<UserValidator>();
 builder.Services.AddMediatR(cf => cf.RegisterServicesFromAssembly(typeof(Program).Assembly));
 
@@ -33,22 +33,17 @@ builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
 var mongoConnectionString = builder.Configuration.GetSection("MongoDB").GetSection("ConnectionURI").Value;
 
 builder.Services.AddHangfire(config => config
-    .UseSimpleAssemblyNameTypeSerializer()
-    .UseRecommendedSerializerSettings()
     .UseMongoStorage(mongoConnectionString, builder.Configuration.GetSection("MongoDB").GetSection("MongoHangfireDB").Value, new MongoStorageOptions
     {
-        MigrationOptions = new MongoMigrationOptions
+        MigrationOptions = new MongoMigrationOptions //Required for migration and backup strategy as the db evolve with time.
         {
             MigrationStrategy = new MigrateMongoMigrationStrategy(),
             BackupStrategy = new CollectionMongoBackupStrategy()
         },
-        Prefix = builder.Configuration.GetSection("MongoDB").GetSection("Prefix").Value, 
-        CheckConnection = true,
-        CheckQueuedJobsStrategy = CheckQueuedJobsStrategy.TailNotificationsCollection
+        Prefix = builder.Configuration.GetSection("MongoDB").GetSection("Prefix").Value
     }));
 
 builder.Services.AddHangfireServer();
-
 
 //Register Logging Service
 builder.Host.UseSerilog((context, loggerConfig) =>
@@ -63,7 +58,7 @@ builder.Host.UseNServiceBus((context) =>
     var transport = endpointConfiguration
         .UseTransport<RabbitMQTransport>();
     
-    transport.UseConventionalRoutingTopology(QueueType.Quorum);
+    transport.UseConventionalRoutingTopology(QueueType.Quorum); //high availibility
     
     var connectionString = builder.Configuration.GetConnectionString("RabbitMQTransportConnectionString");
     
