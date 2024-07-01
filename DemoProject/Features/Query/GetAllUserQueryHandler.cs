@@ -27,7 +27,7 @@ public class GetAllUserQueryHandler: IRequestHandler<GetAllUserQuery,List<User>>
         
         catch (Exception ex)
         {
-            _logger.Information("Error retrieving user details", ex.Message.ToString());
+            _logger.Information("Error retrieving user details", ex.Message);
         }
 
         return null!;

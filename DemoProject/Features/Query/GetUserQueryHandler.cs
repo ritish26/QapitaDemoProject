@@ -26,7 +26,7 @@ public class GetUserQueryHandler : IRequestHandler<GetUserQuery,User>
         
         catch (Exception e)
         {
-            _logger.Information("Error retrieving user {UserName}", request.Name);
+            _logger.Information("Error getting while retrieving the user details", e.Message);
             throw;
         }
 
