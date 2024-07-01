@@ -55,18 +55,18 @@ public class EventStoreHttpClient
 
     private async Task<string?> GetLastNumber()
     {
-        var url = $"http://localhost:2120/streams/{StreamName}/head/backward/1";
+        var url = $"{_settings.HttpUrl}/streams/{StreamName}/head/backward/1";
         
         try
         {
             // Send the GET request
-            HttpResponseMessage response3 = await _httpClient.GetAsync(url);
+            HttpResponseMessage response = await _httpClient.GetAsync(url);
 
             // Ensure the request was successful
-            response3.EnsureSuccessStatusCode();
+            response.EnsureSuccessStatusCode();
 
             // Read the response content as a string
-            var responseBody = await response3.Content.ReadAsStringAsync();
+            var responseBody = await response.Content.ReadAsStringAsync();
             var json = JObject.Parse(responseBody);
             if (json["entries"] is JArray entries1)
             {
