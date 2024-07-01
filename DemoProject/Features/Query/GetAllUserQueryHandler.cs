@@ -13,7 +13,6 @@ public class GetAllUserQueryHandler: IRequestHandler<GetAllUserQuery,List<User>>
     {
         _userRepository = userRepository;
         _logger = logger;
-
     }
     
     public async Task<List<User>> Handle(GetAllUserQuery request, CancellationToken cancellationToken)
@@ -24,8 +23,8 @@ public class GetAllUserQueryHandler: IRequestHandler<GetAllUserQuery,List<User>>
             if (users != null) 
                 return users;
             _logger.Information("Empty list of users");
-           
         }
+        
         catch (Exception ex)
         {
             _logger.Information("Error retrieving user details", ex.Message.ToString());

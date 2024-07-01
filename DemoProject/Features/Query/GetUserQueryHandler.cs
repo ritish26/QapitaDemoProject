@@ -23,6 +23,7 @@ public class GetUserQueryHandler : IRequestHandler<GetUserQuery,User>
             if (user != null) return user;
             _logger.Information("User '{UserName}' not found", request.Name);
         }
+        
         catch (Exception e)
         {
             _logger.Information("Error retrieving user {UserName}", request.Name);
