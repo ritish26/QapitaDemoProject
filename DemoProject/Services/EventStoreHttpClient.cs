@@ -67,12 +67,13 @@ public class EventStoreHttpClient
 
             // Read the response content as a string
             var responseBody = await response3.Content.ReadAsStringAsync();
-            var json1 = JObject.Parse(responseBody);
-            if (json1["entries"] is JArray entries1)
+            var json = JObject.Parse(responseBody);
+            if (json["entries"] is JArray entries1)
             {
                 foreach (var entry in entries1)
                 {
-                    var data = entry["title"].ToString();
+                    var data = entry["title"]?.ToString();
+                    if (data == null) break;
                     string?[] parts = data.Split('@');
 
                     // Assign the parts to variables

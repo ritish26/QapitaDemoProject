@@ -29,20 +29,20 @@ builder.Services.AddMediatR(cf => cf.RegisterServicesFromAssembly(typeof(Program
 //configure auto mapper
 builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
 
-// Add Hangfire services.
-var mongoConnectionString = builder.Configuration.GetConnectionString("MongoDbConnection");
+// Add Hangfire services using MongoDB
+var mongoConnectionString = builder.Configuration.GetSection("MongoDB").GetSection("ConnectionURI").Value;
 
 builder.Services.AddHangfire(config => config
     .UseSimpleAssemblyNameTypeSerializer()
     .UseRecommendedSerializerSettings()
-    .UseMongoStorage(mongoConnectionString, "hangfiremongo", new MongoStorageOptions
+    .UseMongoStorage(mongoConnectionString, builder.Configuration.GetSection("MongoDB").GetSection("MongoHangfireDB").Value, new MongoStorageOptions
     {
         MigrationOptions = new MongoMigrationOptions
         {
             MigrationStrategy = new MigrateMongoMigrationStrategy(),
             BackupStrategy = new CollectionMongoBackupStrategy()
         },
-        Prefix = "hangfire.mongo", 
+        Prefix = builder.Configuration.GetSection("MongoDB").GetSection("Prefix").Value, 
         CheckConnection = true,
         CheckQueuedJobsStrategy = CheckQueuedJobsStrategy.TailNotificationsCollection
     }));
